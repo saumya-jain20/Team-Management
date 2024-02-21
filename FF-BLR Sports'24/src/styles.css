@@ -1,0 +1,40 @@
+.full-width-table-container {
+  position: fixed;
+  top: 10px;
+  left: 3px;
+  height: 100%;
+  width: 50%;
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
+.right-half-page {
+  margin-left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding-left: 0.5rem;
+}
+
+
+.save-button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: #38803b;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 2rem auto;
+  font-size: 15px;
+}
+
+.save-button:hover {
+  background-color: #38803b;
+}
+
